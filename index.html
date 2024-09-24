@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字あて</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="game_title">
+        <h1>数字あてゲーム</h1>
+    </div>
+    
+    <div class="hint_wrapper">
+        <div class="game_intro">
+            <p>数字を当てよう<br>数字は1-100の範囲</p>
+            <div class="game_start btn"><p class="text start">開始</p></div>
+        </div>
+        
+        
+        <div class="hint_content">
+            <div class="btn"><p class="text hint">Hint</p></div>
+            <p class="addeven">偶数or奇数：<span class="addeven_content"></span></p>
+            <p class="division">３で割り切れる：<span class="division_content"></span></p>
+            <p class="division">５で割り切れる：<span class="division_content"></span></p>
+            <p class="division">７で割り切れる：<span class="division_content"></span></p>
+            <p class="division">11で割り切れる：<span class="division_content"></span></p>
+        </div>
+
+        <div class="hint_graph">
+            <table>
+                <div class="graph"></div>
+            </table>
+        </div>
+    </div>
+
+    <form class="reply_area" action="#" method="#">
+        <input type="number" id="input_number" name="input_number" required minlength="1" maxlength="3">
+        <div class="btn"><p class="text reply">解答</p></div>
+        <div class="game_result"></div>
+        <div class="btn"><p class="text continue">続ける</p></div>
+    </form>
+</body>
+</html>

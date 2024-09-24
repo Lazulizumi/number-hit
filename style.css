@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    line-height: 1;
+    font-size:1.3rem;
+}
+.btn{
+    margin:1rem auto 0;
+    width:6rem;
+    height:3rem;
+    border:2px solid #333;
+    border-radius: 4px;
+    background-color:lightgrey;
+    cursor: pointer;
+}
+.text{
+    margin:0.8rem 0 0;
+}
+
+/*GameTitle
+======================================================*/
+.game_title{
+    margin-top: 2rem;
+}
+
+
+.hint_wrapper{
+    margin-top:4rem;
+}
+
+.hint_content{
+    margin: 1rem 0 0;
+    font-size:1.5rem;
+}
+
+.text_start{
+    margin-top:1.5rem;
+}
+
+.addeven{
+    margin:1rem 0 0;
+}
+
+.game_start{
+    margin-top:1rem;
+}
+
+.game_intro{
+    margin-top:2rem;
+}
+
+#input_number{
+    border:2px solid #222;
+    width:6rem;
+}
+
+.reply_area{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.game_result{
+    margin-top:1.5rem;
+}
+.hidden-retry{
+    visibility: hidden;
+}
